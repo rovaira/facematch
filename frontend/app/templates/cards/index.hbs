@@ -1,1 +1,7 @@
 {{outlet}}
+<h1> Cards </h1>
+
+{{#each model as |card| }}
+  <h3> {{card.name}}</h3>
+  <img {{bind-attr src="http://bit.ly/1SS5QfB"}} />
+{{/each}}
