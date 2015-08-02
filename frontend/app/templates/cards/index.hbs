@@ -1,7 +1,6 @@
-{{outlet}}
-<h1> Cards </h1>
+<h3>Total cards: {{model.length}}</h3>
 
 {{#each model as |card| }}
-  <h3> {{card.name}}</h3>
-  <img {{bind-attr src="http://bit.ly/1SS5QfB"}} />
+  <h3> {{link-to card.name 'cards.show' card}}</h3>
+  <img {{bind-attr src="http://bit.ly/1SS5QfB"}} alt="card picture">
 {{/each}}
