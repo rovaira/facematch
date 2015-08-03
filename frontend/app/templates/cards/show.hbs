@@ -1,8 +1,10 @@
 <h3>{{model.name}}</h3>
 
-<div id="image">Image: {{model.image}}</div>
+<p><img src={{model.image}}></p>
 
+<p>
 <div id="correctly-matched">Correctly Matched? {{model.correctlyMatched}}</div>
+</p>
 
 <p>{{link-to 'Edit' 'cards.edit' model}}</p>
-<button {{action "delete" model on="click"}}>Delete</button>
+<button class="tiny secondary"{{action "delete" model on="click"}}>Delete</button>

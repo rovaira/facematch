@@ -50,7 +50,6 @@ test("user views a card's details/show page", function(assert) {
   andThen(function() {
     assert.equal(currentURL(), '/cards/1');
     assert.equal(find('h3').text(), 'Marina');
-    assert.equal(find('#image').text(), "Image: http://bit.ly/1SS5QfB");
     assert.equal(find('#correctly-matched').text(), "Correctly Matched? false");
   });
 });

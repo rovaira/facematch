@@ -1,9 +1,9 @@
 <h3>Total cards: {{model.length}}</h3>
 
 {{#each model as |card| }}
-  <h3> {{link-to card.name 'cards.show' card}}</h3>
-  <img {{bind-attr src="http://bit.ly/1SS5QfB"}} alt="card picture">
-  <button {{action "delete" card on="click"}}>Delete</button>
+  <h3>{{link-to card.name 'cards.show' card}}</h3>
+  <p><img src={{card.image}}></p>
+  <p><button class="tiny secondary" {{action "delete" card on="click"}}>Delete</button></p>
 {{/each}}
 
 <p>{{link-to 'Add Card' 'cards.new'}}</p>
