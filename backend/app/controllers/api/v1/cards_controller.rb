@@ -18,6 +18,17 @@ class Api::V1::CardsController < ApplicationController
     render json: @card
   end
 
+  def update
+    @card = Card.find(params[:id])
+
+    if @card.update(card_params)
+      render json: @card
+    else
+      render json: { errors: @card.errors }, status: 422
+      # 422 means syntax correct but unable to process instructions
+    end
+  end
+
   private
 
   def card_params

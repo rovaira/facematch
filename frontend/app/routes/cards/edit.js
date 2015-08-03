@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model: function() {
-    return this.store.createRecord('card');
+  model: function(params) {
+    return this.store.find('card', params.card_id);
   },
   actions: {
     save: function(card) {
@@ -13,6 +13,6 @@ export default Ember.Route.extend({
     },
     cancel: function() {
       this.transitionTo('cards');
-    }
+    },
   }
 });
