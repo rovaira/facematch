@@ -1,13 +1,11 @@
 <form {{action "save" model on="submit"}}>
   <p>
-    <label>Name:
-      {{input value=model.name}}
-    </label>
+    <label for="card-name">Name:</label>
+      {{input name="name" value=model.name placeholder="Enter person's name"}}
   </p>
   <p>
-    <label>Image URL:
-      {{input value=model.image}}
-    </label>
+    <label for="card-image">Image URL:</label>
+      {{input name="image" value=model.image placeholder="Enter card's image URL"}}
   </p>
   <input type="submit" value="Save"/>
 </form>
