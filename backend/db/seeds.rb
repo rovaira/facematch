@@ -8,3 +8,4 @@
 Card.create(image: "https://s3.amazonaws.com/facematch-production/static/marina01.jpeg", name: "Marina")
 Card.create(image: "https://s3.amazonaws.com/facematch-production/static/martin01.jpeg", name: "Martin")
 Card.create(image: "https://s3.amazonaws.com/facematch-production/static/rita02.jpeg", name: "Rita")
+Card.create(name: "Test Card")
