@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150802014220) do
+ActiveRecord::Schema.define(version: 20150803201114) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "cards", force: :cascade do |t|
-    t.string   "image",                             null: false
-    t.string   "name",                              null: false
+    t.string   "image",             default: "https://s3.amazonaws.com/facematch-production/static/alzheimersawareness.png", null: false
+    t.string   "name",                                                                                                       null: false
     t.boolean  "correctly_matched", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
