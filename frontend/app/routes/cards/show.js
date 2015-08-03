@@ -10,7 +10,7 @@ export default Ember.Route.extend({
   actions: {
     delete: function(card) {
       var _this = this;
-      card.destroyRecord().then(function(card) {
+      card.destroyRecord().then(function() {
         _this.transitionTo('cards');
       });
     }
