@@ -1,6 +1,6 @@
-- User Stories -
+## User Stories
 
-# index
+### index
 As a user
 I should see a list of all the cards in my stack
 So I can see which image/name pairs I will be trying to remember
@@ -8,7 +8,7 @@ So I can see which image/name pairs I will be trying to remember
 Acceptance Criteria:
 [] I visit /cards and see links + accompanying photos for all cards in my stack.
 
-# show
+### show
 As a user
 I should see an image and a name that corresponds with that image
 So that I can try to memorize that image-name pair
@@ -25,7 +25,7 @@ As a user
 If I correctly match a name to an image, my completed counter increases by one
 So the app keeps track of all my completed matches
 
-# new
+### new
 As a user
 I want to add a new card to my stack
 So I can include another person I'd like practice memorizing their image/name
@@ -35,7 +35,7 @@ Acceptance Criteria:
 [] I am taken to a /cards/new page where I fill out a form to add a new card.
 [] The form should have a field for a Name and Image URL.
 
-# edit
+### edit
 As a user
 I want to edit a card's image/name
 So I can practice matching a face/name with another picture of that person
