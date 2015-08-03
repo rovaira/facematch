@@ -29,6 +29,13 @@ class Api::V1::CardsController < ApplicationController
     end
   end
 
+  def destroy
+    @card = Card.find(params[:id])
+    @card.destroy
+
+    render json: @card
+  end
+  
   private
 
   def card_params

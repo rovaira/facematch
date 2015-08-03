@@ -5,4 +5,5 @@
   Correctly Matched? {{model.correctlyMatched}}
 </div>
 
-{{link-to 'Edit' 'cards.edit' model}}
+<p>{{link-to 'Edit' 'cards.edit' model}}</p>
+<button {{action "delete" model on="click"}}>Delete</button>
