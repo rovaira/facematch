@@ -7,6 +7,7 @@ of the people they care about.
 The current build has working #index, #show, #update, #destroy functionalities.
 
 ![alt](http://i.imgur.com/YHatzUS.gif)
+![alt](http://imgur.com/YHatzUS)
 [facematch screencast](http://i.imgur.com/YHatzUS.gifv)
 
 ## Ruby version:
