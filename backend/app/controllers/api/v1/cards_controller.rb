@@ -25,7 +25,7 @@ class Api::V1::CardsController < ApplicationController
       render json: @card
     else
       render json: { errors: @card.errors }, status: 422
-      # syntax correct but unable to process instructions
+      # 422 means syntax correct but unable to process instructions
     end
   end
 

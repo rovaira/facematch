@@ -11,7 +11,7 @@ export default Ember.Route.extend({
         _this.transitionTo('cards.show', card);
       });
     },
-    cancel: function(card) {
+    cancel: function() {
       this.transitionTo('cards');
     },
   }
