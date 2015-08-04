@@ -8,6 +8,7 @@ The current build has working #index, #show, #update, #destroy functionalities.
 
 [facematch screencast](http://i.imgur.com/YHatzUS.gifv)
 ![alt](http://i.imgur.com/YHatzUS.gif)
+![alt](http://i.imgur.com/YHatzUS.gifv)
 
 ## Ruby version:
 2.2.0
