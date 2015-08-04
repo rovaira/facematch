@@ -7,6 +7,7 @@ of the people they care about.
 The current build has working #index, #show, #update, #destroy functionalities.
 
 [facematch screencast](http://i.imgur.com/YHatzUS.gifv)
+![alt](https://s3.amazonaws.com/facematch-production/static/out.gif)
 
 ## Ruby version:
 2.2.0
