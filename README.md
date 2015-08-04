@@ -7,7 +7,7 @@ of the people they care about.
 The current build has working #index, #show, #update, #destroy functionalities.
 
 [facematch screencast](http://i.imgur.com/YHatzUS.gifv)
-![alt](http://i.imgur.com/YHatzUS.gif)
+![alt](https://s3.amazonaws.com/facematch-production/static/alzheimersawareness.png)
 ![alt](http://i.imgur.com/YHatzUS.gifv)
 
 ## Ruby version:
