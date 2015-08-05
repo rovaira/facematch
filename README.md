@@ -6,7 +6,6 @@ of the people they care about.
 
 The current build has working #index, #show, #update, #destroy functionalities.
 
-[facematch screencast](http://i.imgur.com/YHatzUS.gifv)
 ![alt](https://s3.amazonaws.com/facematch-production/static/out.gif)
 
 ## Ruby version:
@@ -19,7 +18,7 @@ The current build has working #index, #show, #update, #destroy functionalities.
 - pretender (ember acceptance tests)
 
 ## Tests
-Backend: Unit tests for Card model
+Backend: Unit tests for Card model  
 Frontend: Acceptance tests for #index, #show, #create
 
 ## Schema Structure
@@ -32,27 +31,25 @@ Cards
 
 ## Future Functionalities
 
-* Game:
--- See an image and a name associated w/ that image
--- Name disappears (timer mechanism?)
--- User is to select the correct name from a list that matches with an image
--- Every correctly matched image-name gets added to a "Complete" list
--- Any wrong matches gets cycled through again until the image is correctly matched
+**Game:**
+- See an image and a name associated w/ that image
+- Name disappears (timer mechanism?)
+- User is to select the correct name from a list that matches with an image
+- Every correctly matched image-name gets added to a "Complete" list
+- Any wrong matches gets cycled through again until the image is correctly matched  
 
-* User accounts so you can:
+**User accounts:**
 
-1) upload your own pics and organize them into decks
--- immediate family
--- extended family
--- college friends
+1) Upload your own pics and organize them into decks
+- immediate family
+- extended family
+- college friends
 
-2) save progress reports for each deck
--- how many correct?
--- which cards are easier/more difficult to remember?
--- might need to add a another model to keep track of this info
-for example, within a round, which cards were correctly matched?
-how many times has a card been played --> what was the match ratio?
+2) Save progress reports for each deck
+- how many correct?
+- which cards are easier/more difficult to remember?
+- might need to add a another model to keep track of this info for example, within a round, which cards were correctly matched? how many times has a card been played --> what was the match ratio?
 
-* Mobile ready
+**Mobile ready:**
 
 1) it should definitely be something you can play on your phone/tablet
